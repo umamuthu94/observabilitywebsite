@@ -14,6 +14,7 @@
   }
 
   .box {
+    position: relative; 
     background-color: #010507;
     color: #fff; 
     padding: 20px;
@@ -23,3 +24,19 @@
     margin: 10px 0;
     height: 400px;
   }
+
+  .read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding-right: 100px;
+    font-size: 20px;
+}
+
+.read-more:hover {
+    background-color: #989da1;
+}
