@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { VideosComponent } from './videos/videos.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MainContentComponent } from './main-content/main-content.component';
 
 
 
@@ -16,7 +17,8 @@ import { RouterModule, Routes } from '@angular/router';
     AppComponent,
     HeaderComponent,
     VideosComponent,
-    
+    MainContentComponent,
+     
   
   ],
   imports: [

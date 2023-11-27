@@ -1,0 +1,25 @@
+.landing-section {
+    text-align: center;
+    padding: 10px 0; 
+    font-size: 26px;
+  }
+
+  h1 {
+    margin-top: 100px;
+  }
+
+  .box-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .box {
+    background-color: #010507;
+    color: #fff; 
+    padding: 20px;
+    border: 1px solid #02070a; 
+    border-radius: 7px;
+    width: 30%; 
+    margin: 10px 0;
+    height: 400px;
+  }
