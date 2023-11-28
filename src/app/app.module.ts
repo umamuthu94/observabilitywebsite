@@ -11,24 +11,22 @@ import { MainContentComponent } from './main-content/main-content.component';
 
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     VideosComponent,
     MainContentComponent,
-     
+         
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-       // other imports
+       
        RouterModule.forRoot([
-        { path: 'videos', component: VideosComponent }, // replace 'VideosComponent' with your actual component
-        // other route configurations
-      ]),
+        { path: 'videos', component: VideosComponent }, 
+            ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
